@@ -1,0 +1,197 @@
+/***********Type Selectors************/
+body {
+  background: #000000 url("background.png") no-repeat right top;
+  background-size: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: lighter;
+  font-size: 4.60rem;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  margin: 0 auto 20px;
+}
+
+h5 {
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 2;
+}
+
+img {
+  margin-top: 40%;
+  width: 11rem;
+}
+
+hr {
+  border: dotted #202020 6px;
+  width: 5%;
+  border-bottom: none;
+  margin: 80px auto;
+}
+
+a {
+  color: #ffffff;
+  margin: 10px 18px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d0d0d0;
+}
+/**********Class Selectors***********/
+.header {
+  display: block;
+}
+
+.middle-header {
+  display: inline-block;
+}
+
+.left-corner {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.drop-down {
+  margin-bottom: 0;
+}
+
+.something {
+  visibility: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.right-corner {
+  display: block;
+  position: relative;
+  float: right;
+}
+
+.about-me {
+  visibility: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.contact-details {
+  visibility: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.more {
+  visibility: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.top {
+  margin-top: 10%;
+}
+
+.summary {
+  display: inline-block;
+  width: 45rem;
+  align-self: center;
+}
+/*.Skills {
+}*/
+
+.skill-1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.skill-2 {
+  position: relative;
+  display: inline-block;
+}
+
+.skill-3 {
+  position: relative;
+  display: inline-block;
+}
+
+
+/*.Links {
+}*/
+
+.link-1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.link-2 {
+  position: relative;
+  display: inline-block;
+}
+
+.link-3 {
+  position: relative;
+  display: inline-block;
+}
+
+.contact-me {
+  margin-bottom: 120px;
+}
+
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 2px #666666;
+  -moz-box-shadow: 0px 1px 2px #666666;
+  box-shadow: 0px 1px 2px #666666;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #262626;
+  padding: 3px 10px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.btn:hover {
+  background: #403d45;
+  text-decoration: none;
+}
+
+.website-footer {
+  background-color: #0E0E0E;
+}
+
+.copyright {
+  font-size: 80%;
+  margin-bottom: 0;
+}
+/********************ID Selectors*********************/
